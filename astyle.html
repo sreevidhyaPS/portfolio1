@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+.logo{
+    width: 160px;
+    height: 80px;
+}
+.list-items{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+#homecontend{
+
+    margin: 13% 0% 0% 8%;
+}
+#uname{
+font-size: 50px;
+margin-bottom: 20px;
+font-family: "Edu AU VIC WA NT Hand", cursive;
+
+}
+#l-name{
+    font-family: "Playwrite AR", cursive;
+    color: orangered;
+}
+#userdeatiles{
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.link:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.home-images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    /* top: 40px; */
+}
+.group1{
+    position: absolute;
+    /* width: 100%; */
+    height: 100%;
+    bottom: 0px;
+   left: 50%;
+   transform: translateX(-50%);
+   transition: bottom 2s,left 2s;
+}
+.home-images:hover #shap{
+    bottom: 30px;
+}
+.home-images:hover #girl{
+    left: 20%;
+}
+
+
+#about{
+    margin: 13% 8% 0% 8%;
+}
+.section-head{
+    text-align: center;
+
+}
+.main-head{
+    font-size: 30px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.sub-head{
+    font-size: 25px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: orangered;
+}
+.section-body{
+    display: flex;
+    align-items: center;
+}
+#about-image>img{
+width: 400px;
+}
+.about-content{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
+}
+.information{
+    margin-top: 30px;
+}
+.info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.info-box>span{
+    margin-left: 20px;
+}
+.section-head>h3{
+    font-size: 30px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.section-head>span{
+    font-size: 25px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: orangered;
+}
+#skills{
+    margin: 8%  8% 8% 8%  ;
+}
+.skill-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-top: 20px;
+    gap: 2rem;
+}
+.skill-img{
+    width: 100%;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    position: relative;
+}
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+#html-bar{
+    background-color: orangered;
+    width: 95%;
+}
+#css-bar{
+    background-color: orangered;
+    width: 87%;
+}
+#javascript-bar{
+    background-color: orangered;
+    width: 85%;
+}
+#Angular-bar{
+    background-color: orangered;
+    width: 80%;
+}
+#contact{
+    margin: 8%;
+    
+}
+.icon-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+   margin: 0px 10px;
+}
+.brand{
+    color: black;
+    font-size: 26px;
+}
+/* button click cheyumbo color change avan */
+.brand:hover{
+    color: white;
+}
+.icon:hover{
+    background-image: linear-gradient(orangered,yellow);
+    animation: rotate 2s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }    
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+#copy-rigt{
+    text-align: center;
+    font-weight: bold;
+}
+.arrowup{
+    float: right;
+    margin: -40px 30px 30px 0px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 1px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
